@@ -1,0 +1,545 @@
+TAgeApp
+v7
+r0
+t324814876.022292
+cCheck dependencies
+cProcessInfoPlistFile "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/Info.plist" AgeApp-Info.plist
+cCompileXIB "/Users/jeffota/Documents/iPhone Apps/AgeApp/MainWindow.xib"
+cCompileXIB "/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeAppViewController.xib"
+cCpResource build/Debug-iphonesimulator/AgeApp.app/8000.wav Resources/8000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/10000.wav Resources/10000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/12000.wav Resources/12000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/14000.wav Resources/14000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/15000.wav Resources/15000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/16000.wav Resources/16000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/17000.wav Resources/17000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/18000.wav Resources/18000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/19000.wav Resources/19000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/20000.wav Resources/20000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/21000.wav Resources/21000.wav
+cCpResource build/Debug-iphonesimulator/AgeApp.app/22000.wav Resources/22000.wav
+cProcessPCH /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch.gch AgeApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/main.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppAppDelegate.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppViewController.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/ageEventController.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp" normal i386
+cGenerateDSYMFile "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app.dSYM" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp"
+cTouch "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D2C06D20000000000000110
+t1294730962
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D30355A000000000013C930
+t1295005018
+s1296688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004D30354F00000000000007D0
+t1295005007
+s2000
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D2BF4EB0000000000298910
+t1294726379
+s2722064
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D2BF558000000000029DA10
+t1294726488
+s2742800
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D2BF5490000000000001466
+t1294726473
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D2C05020000000000000AA1
+t1294730498
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D2C055500000000007662E0
+t1294730581
+s7758560
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeAppViewController.xib
+c000000004D9EB97E0000000000005A35
+t1302247806
+s23093
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeApp_Prefix.pch
+c000000004D8426D700000000000000B5
+t1300506327
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.h
+c000000004D865EAE00000000000001E7
+t1300651694
+s487
+i<UIKit/UIKit.h>
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m
+c000000004D865EB40000000000000ACD
+t1300651700
+s2765
+i"AgeAppAppDelegate.h"
+i"AgeAppViewController.h"
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.h
+c000000004D9EB7BD000000000000037A
+t1302247357
+s890
+i<UIKit/UIKit.h>
+i<AVFoundation/AVFoundation.h>
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m
+c000000004DAC108D000000000000277B
+t1303122061
+s10107
+i"AgeAppViewController.h"
+i<AVFoundation/AVFoundation.h>
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.h
+c000000004D865EB40000000000000124
+t1300651700
+s292
+i<Foundation/Foundation.h>
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m
+c000000004D865EB40000000000000236
+t1300651700
+s566
+i"ageEventController.h"
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/MainWindow.xib
+c000000004D8426D70000000000004E1D
+t1300506327
+s19997
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/10000.wav
+c000000004DAC013700000000000409C4
+t1303118135
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/12000.wav
+c000000004DAC018100000000000409C4
+t1303118209
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/14000.wav
+c000000004DAC01C800000000000409C4
+t1303118280
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/15000.wav
+c000000004DAC020900000000000409C4
+t1303118345
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/16000.wav
+c000000004DAC025B00000000000409C4
+t1303118427
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/17000.wav
+c000000004DAC02A300000000000409C4
+t1303118499
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/18000.wav
+c000000004DAC02CA00000000000409C4
+t1303118538
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/19000.wav
+c000000004DAC02F800000000000409C4
+t1303118584
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/20000.wav
+c000000004D749B2100000000000409C6
+t1299487521
+s264646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/21000.wav
+c000000004D749B2500000000000409C6
+t1299487525
+s264646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/22000.wav
+c000000004D749B2900000000000409C6
+t1299487529
+s264646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/8000.wav
+c000000004DAC00E400000000000409C4
+t1303118052
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeApp.LinkFileList
+c000000004D84277E000000000000021F
+t1300506494
+s543
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppAppDelegate.o
+t1303122033
+s52528
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppViewController.o
+t1303122063
+s67648
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/ageEventController.o
+t1303122033
+s6912
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/main.o
+t1303122033
+s6320
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app
+t1303122063
+s646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app.dSYM
+t1303122063
+s102
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/10000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/12000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/14000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/15000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/16000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/17000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/18000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/19000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/20000.wav
+t1300506495
+s264646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/21000.wav
+t1300506495
+s264646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/22000.wav
+t1300506495
+s264646
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/8000.wav
+t1303118955
+s264644
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp
+t1303122063
+s30292
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeAppViewController.nib
+t1302247809
+s4074
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/Info.plist
+t1300506494
+s587
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/MainWindow.nib
+t1300506495
+s1679
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/PkgInfo
+t1300506494
+s8
+
+N/Users/jeffota/Documents/iPhone Apps/AgeApp/main.m
+c000000004D865EB40000000000000176
+t1300651700
+s374
+i<UIKit/UIKit.h>
+
+N/var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ebltvqgmdvwgirbfscakzyqlsivm/AgeApp_Prefix.pch.gch
+t1300506497
+s15809968
+
+N/var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch.gch
+t1303122033
+s15793584
+
+NAgeApp-Info.plist
+c000000004D8426D7000000000000038D
+t1300506327
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies324814876#324814876#0(0"0(0#1#0"8599078016#0"0#
+
+CCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppAppDelegate.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324814833.242565
+e324814833.850299
+r1
+xCompileC
+xbuild/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppAppDelegate.o
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m324814833#324814833#0(0"0(0#0#71"/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m8603241088#2013"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-generated-files.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-own-target-headers.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-all-target-headers.hmap" -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-project-headers.hmap" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/include" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources/i386" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources" -DDEBUG -include /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppAppDelegate.m" -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppAppDelegate.o"0#
+
+CCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppViewController.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324814862.984967
+e324814863.220834
+r1
+xCompileC
+xbuild/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppViewController.o
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m324814862#324814863#0(0"0(0#0#74"/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m8614714400#2019"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-generated-files.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-own-target-headers.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-all-target-headers.hmap" -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-project-headers.hmap" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/include" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources/i386" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources" -DDEBUG -include /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/AgeAppViewController.m" -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeAppViewController.o"0#
+
+CCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/ageEventController.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324814833.805507
+e324814833.860652
+r1
+xCompileC
+xbuild/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/ageEventController.o
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m: In function '-[soundEventController init]':
+o/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m:22: warning: control reaches end of non-void function
+lSLF07#2@80"Compile /Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m324814833#324814833#0(245"/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m: In function '-[soundEventController init]':/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m:22: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function324814833#118#127#0(6@72"/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m322344500#22#0#22#0#40"control reaches end of non-void function0(0#0#72"/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m8613478528#2015"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-generated-files.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-own-target-headers.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-all-target-headers.hmap" -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-project-headers.hmap" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/include" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources/i386" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources" -DDEBUG -include /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/Classes/ageEventController.m" -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/ageEventController.o"0#
+
+CCompileC build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/main.o "/Users/jeffota/Documents/iPhone Apps/AgeApp/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s324814833.241512
+e324814833.537093
+r1
+xCompileC
+xbuild/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/main.o
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/jeffota/Documents/iPhone Apps/AgeApp/main.m324814833#324814833#0(0"0(0#0#50"/Users/jeffota/Documents/iPhone Apps/AgeApp/main.m8600251808#1979"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-generated-files.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-own-target-headers.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-all-target-headers.hmap" -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-project-headers.hmap" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/include" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources/i386" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources" -DDEBUG -include /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/main.m" -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeAppViewController.xib"
+s323940608.719224
+e323940609.147020
+r1
+xCompileXIB
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeAppViewController.xib
+lSLF07#2@35"CompileXIB AgeAppViewController.xib323940608#323940609#0(0"0(0#0#68"/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeAppViewController.xib8612707008#610"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeAppViewController.nib" "/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeAppViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/jeffota/Documents/iPhone Apps/AgeApp/MainWindow.xib"
+s322199294.706822
+e322199295.475210
+r1
+xCompileXIB
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib322199294#322199295#0(0"0(0#0#58"/Users/jeffota/Documents/iPhone Apps/AgeApp/MainWindow.xib8613460832#590"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/MainWindow.nib" "/Users/jeffota/Documents/iPhone Apps/AgeApp/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/10000.wav Resources/10000.wav
+s324811755.109412
+e324811755.176574
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/10000.wav
+xResources/10000.wav
+lSLF07#2@24"Copy Resources/10000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/10000.wav8600482688#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/10000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/12000.wav Resources/12000.wav
+s324811755.110352
+e324811755.253425
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/12000.wav
+xResources/12000.wav
+lSLF07#2@24"Copy Resources/12000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/12000.wav8603755648#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/12000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/14000.wav Resources/14000.wav
+s324811755.117709
+e324811755.193007
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/14000.wav
+xResources/14000.wav
+lSLF07#2@24"Copy Resources/14000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/14000.wav8603770496#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/14000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/15000.wav Resources/15000.wav
+s324811755.119361
+e324811755.256802
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/15000.wav
+xResources/15000.wav
+lSLF07#2@24"Copy Resources/15000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/15000.wav8603785024#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/15000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/16000.wav Resources/16000.wav
+s324811755.121024
+e324811755.254730
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/16000.wav
+xResources/16000.wav
+lSLF07#2@24"Copy Resources/16000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/16000.wav8603799232#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/16000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/17000.wav Resources/17000.wav
+s324811755.122678
+e324811755.255256
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/17000.wav
+xResources/17000.wav
+lSLF07#2@24"Copy Resources/17000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/17000.wav8603814240#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/17000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/18000.wav Resources/18000.wav
+s324811755.124398
+e324811755.240314
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/18000.wav
+xResources/18000.wav
+lSLF07#2@24"Copy Resources/18000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/18000.wav8603828672#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/18000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/19000.wav Resources/19000.wav
+s324811755.126164
+e324811755.240017
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/19000.wav
+xResources/19000.wav
+lSLF07#2@24"Copy Resources/19000.wav324811755#324811755#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/19000.wav8603998368#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/19000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/20000.wav Resources/20000.wav
+s322199295.475283
+e322199295.828267
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/20000.wav
+xResources/20000.wav
+lSLF07#2@24"Copy Resources/20000.wav322199295#322199295#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/20000.wav8614118592#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/20000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/21000.wav Resources/21000.wav
+s322199295.776316
+e322199295.838677
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/21000.wav
+xResources/21000.wav
+lSLF07#2@24"Copy Resources/21000.wav322199295#322199295#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/21000.wav8616226784#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/21000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/22000.wav Resources/22000.wav
+s322199295.782327
+e322199295.837674
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/22000.wav
+xResources/22000.wav
+lSLF07#2@24"Copy Resources/22000.wav322199295#322199295#0(0"0(0#0#63"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/22000.wav8615882688#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/22000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CCpResource build/Debug-iphonesimulator/AgeApp.app/8000.wav Resources/8000.wav
+s324811755.040661
+e324811755.254445
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/AgeApp.app/8000.wav
+xResources/8000.wav
+lSLF07#2@23"Copy Resources/8000.wav324811755#324811755#0(0"0(0#0#62"/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/8000.wav28429445101453416#496"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/jeffota/Documents/iPhone Apps/AgeApp/Resources/8000.wav" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
+CGenerateDSYMFile "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app.dSYM" "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp"
+s324814863.578483
+e324814863.653982
+r1
+xGenerateDSYMFile
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app.dSYM
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/AgeApp.app.dSYM build/Debug-iphonesimulator/AgeApp.app/AgeApp324814863#324814863#0(0"0(0#0#89"/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp8610818784#401"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp" -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app.dSYM"0#
+
+CLd "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp" normal i386
+s324814863.220932
+e324814863.578384
+r1
+xLd
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp
+xnormal
+xi386
+lSLF07#2@94"Link /Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp324814863#324814863#0(0"0(0#0#0"8614721568#954"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" -filelist "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/Objects-normal/i386/AgeApp.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/AgeApp"0#
+
+CProcessInfoPlistFile "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/Info.plist" AgeApp-Info.plist
+s322199294.693385
+e322199294.706730
+r1
+xProcessInfoPlistFile
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/Info.plist
+xAgeApp-Info.plist
+lSLF07#2@25"Process AgeApp-Info.plist322199294#322199295#0(0"0(0#0#61"/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeApp-Info.plist7236274654156910592#497"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AgeApp-Info.plist -genpkginfo "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app/Info.plist"0#
+
+CProcessPCH /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ebltvqgmdvwgirbfscakzyqlsivm/AgeApp_Prefix.pch.gch AgeApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322199295.838790
+e322199297.342881
+r1
+xProcessPCH
+x/var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ebltvqgmdvwgirbfscakzyqlsivm/AgeApp_Prefix.pch.gch
+xAgeApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile AgeApp_Prefix.pch322199295#322199297#0(0"0(0#0#61"/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeApp_Prefix.pch8615183360#1857"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-generated-files.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-own-target-headers.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-all-target-headers.hmap" -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-project-headers.hmap" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/include" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources/i386" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources" -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeApp_Prefix.pch" -o /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ebltvqgmdvwgirbfscakzyqlsivm/AgeApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch.gch AgeApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s324814831.207858
+e324814833.241347
+r1
+xProcessPCH
+x/var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch.gch
+xAgeApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile AgeApp_Prefix.pch324814831#324814833#0(0"0(0#0#61"/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeApp_Prefix.pch8614197376#1865"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-generated-files.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-own-target-headers.hmap" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-all-target-headers.hmap" -iquote "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/AgeApp-project-headers.hmap" "-F/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/include" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources/i386" "-I/Users/jeffota/Documents/iPhone Apps/AgeApp/build/AgeApp.build/Debug-iphonesimulator/AgeApp.build/DerivedSources" -DDEBUG -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/AgeApp_Prefix.pch" -o /var/folders/uh/uh2cxS8dF3aNVJrKJH5t3U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AgeApp_Prefix-ffbjulgtoaaxyzcmrjbynzbqthkl/AgeApp_Prefix.pch.gch0#
+
+CTouch "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"
+s324814863.654077
+e324814863.657153
+r1
+xTouch
+x/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app
+lSLF07#2@88"Touch /Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app324814863#324814863#0(0"0(0#0#0"8612767712#291"    cd "/Users/jeffota/Documents/iPhone Apps/AgeApp"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/jeffota/Documents/iPhone Apps/AgeApp/build/Debug-iphonesimulator/AgeApp.app"0#
+
