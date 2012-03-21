@@ -144,7 +144,7 @@ NSString *ageTable[] = {
 		queuedSound = [sounds[0] intValue];	
 		
 		audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:currentURL error:&error];
-		audioPlayer.numberOfLoops = -1;
+		audioPlayer.numberOfLoops = 0;
 		[audioPlayer prepareToPlay];
         audioPlayer.volume = 1.0;
 		
@@ -153,10 +153,10 @@ NSString *ageTable[] = {
 		float stopInterval = 0.5;
 		
 		/** Queue up sound files to play every 2 seconds **/		
-		[self performSelector:@selector(playSound) withObject:nil afterDelay:timeToPlay];
+        [self performSelector:@selector(playSound) withObject:nil afterDelay:timeToPlay];
 		[self performSelector:@selector(stopSound:) withObject:sounds[1] afterDelay:timeToPlay + stopInterval];
 		timeToPlay += delay;
-		
+        
 		[self performSelector:@selector(playSound) withObject:nil afterDelay:timeToPlay];
 		[self performSelector:@selector(stopSound:) withObject:sounds[2] afterDelay:timeToPlay + stopInterval];
 		timeToPlay += delay;
@@ -199,7 +199,7 @@ NSString *ageTable[] = {
 	
 		[self performSelector:@selector(playSound) withObject:nil afterDelay:timeToPlay];
 		[self performSelector:@selector(stopSound:) withObject:nil afterDelay:timeToPlay + stopInterval];
-	
+        
         // Change the helper label
         helpText.text = [NSString stringWithFormat: @"( Tap each time you hear a sound! )"];
         
@@ -217,9 +217,9 @@ NSString *ageTable[] = {
 
 -(void)stopSound:(NSNumber*)soundId{
 	
-	[audioPlayer stop];
-	[audioPlayer setCurrentTime:0.0];
-	[audioPlayer release];
+	//[audioPlayer stop];
+	//[audioPlayer setCurrentTime:0.0];
+	//[audioPlayer release];
 	
 	if(soundId == nil){
 		[self performSelector:@selector(calculateAge) withObject:nil afterDelay:1.0];
@@ -233,7 +233,7 @@ NSString *ageTable[] = {
 		NSString* curSound = soundBank[index];
 		currentURL = [urlMap objectForKey:curSound];
 		audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:currentURL error:nil];
-		audioPlayer.numberOfLoops = -1;
+		audioPlayer.numberOfLoops = 0;
 		[audioPlayer prepareToPlay];
 		
 		// Remember that this sound has been queued up
