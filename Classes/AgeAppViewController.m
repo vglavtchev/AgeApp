@@ -13,7 +13,9 @@
 @synthesize isAudioPlaying;
 @synthesize testHasStarted;
 @synthesize mainButton;
+@synthesize restartButton;
 @synthesize resultText;
+@synthesize restartText;
 @synthesize helpText;
 @synthesize urlMap;
 @synthesize userHeardSoundsCount;
@@ -38,27 +40,8 @@ NSString *ageTable[] = {
 
 - (id) init
 {
-	[self setIsAudioPlaying:FALSE];
-	[self setTestHasStarted:FALSE];
-	
-	[self setUserHeardSoundsCount:0];
-	
-	userHeardSounds[0] = FALSE;
-	userHeardSounds[1] = FALSE;
-	userHeardSounds[2] = FALSE;
-	userHeardSounds[3] = FALSE;
 
-	userHeardSounds[4] = FALSE;
-	userHeardSounds[5] = FALSE;
-	userHeardSounds[6] = FALSE;
-	userHeardSounds[7] = FALSE;
-
-	userHeardSounds[8] = FALSE;
-	userHeardSounds[9] = FALSE;
-	userHeardSounds[10] = FALSE;
-	userHeardSounds[11] = FALSE;
-	
-	soundBank[0] = @"8k";
+    soundBank[0] = @"8k";
 	soundBank[1] = @"10k";
 	soundBank[2] = @"12k";
 	soundBank[3] = @"14k";
@@ -89,14 +72,47 @@ NSString *ageTable[] = {
 	[urlMap setObject:[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/21000_half.wav", [[NSBundle mainBundle] resourcePath]]] forKey:@"21k"];
 	[urlMap setObject:[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/22000_half.wav", [[NSBundle mainBundle] resourcePath]]] forKey:@"22k"];
 	
-    
-    // Init results label to blank
-    // Update the RESULTS label
-	NSString *newText = [[NSString alloc] initWithFormat:@""];
-	resultText.text = newText;
-
+    [self initLabelsAndButtons];
     
 	return self;
+}
+
+- (void)initLabelsAndButtons
+{
+    // Initialize all audio related variables
+    [self setIsAudioPlaying:FALSE];
+	[self setTestHasStarted:FALSE];
+	
+	[self setUserHeardSoundsCount:0];
+	
+	userHeardSounds[0] = FALSE;
+	userHeardSounds[1] = FALSE;
+	userHeardSounds[2] = FALSE;
+	userHeardSounds[3] = FALSE;
+    
+	userHeardSounds[4] = FALSE;
+	userHeardSounds[5] = FALSE;
+	userHeardSounds[6] = FALSE;
+	userHeardSounds[7] = FALSE;
+    
+	userHeardSounds[8] = FALSE;
+	userHeardSounds[9] = FALSE;
+	userHeardSounds[10] = FALSE;
+	userHeardSounds[11] = FALSE;
+    
+    
+    // Initialize all buttons and labels
+    // Init results label to blank
+	NSString *newText = [[NSString alloc] initWithFormat:@""];
+	resultText.text = newText;
+    
+    // Init restart label to blank
+	NSString *newRestartText = [[NSString alloc] initWithFormat:@""];
+	restartText.text = newRestartText;
+    
+    // Initially hide the RESTART button
+    restartButton.hidden = TRUE;
+    restartButton.enabled = FALSE;
 }
 
 - (IBAction)userTap:(id)sender
@@ -207,6 +223,11 @@ NSString *ageTable[] = {
 	}
 }
 
+- (IBAction)restartRequested:(id)sender
+{	
+    
+}
+
 -(void)playSound{
 	[audioPlayer play];
 	
@@ -287,6 +308,14 @@ NSString *ageTable[] = {
 	// Update the help label
 	NSString *newHelpText = [[NSString alloc] initWithFormat:@""];
 	helpText.text = newHelpText;
+    
+    // Show restart label / button
+	NSString *newRestartText = [[NSString alloc] initWithFormat:@"RESTART TEST?"];
+	restartText.text = newRestartText;
+    
+    // Show the RESTART button
+    restartButton.hidden = FALSE;
+    restartButton.enabled = TRUE;
 #endif
 	
 }

@@ -15,6 +15,7 @@
 	bool testHasStarted;
 	IBOutlet UILabel *mainButton;
     IBOutlet UILabel *resultText;
+    IBOutlet UILabel *restartText;
 	IBOutlet UILabel *helpText;
 	NSMutableDictionary *urlMap;
 	NSString* soundBank[13];
@@ -25,8 +26,10 @@
 	int userHeardSoundsCount;
 }
 
+@property (nonatomic, retain) IBOutlet UIButton *restartButton;
 @property (nonatomic, retain) IBOutlet UILabel *mainButton;
 @property (nonatomic, retain) IBOutlet UILabel *resultText;
+@property (nonatomic, retain) IBOutlet UILabel *restartText;
 @property (nonatomic, retain) IBOutlet UILabel *helpText;
 @property bool isAudioPlaying;
 @property bool testHasStarted;
@@ -34,7 +37,9 @@
 @property int userHeardSoundsCount;
 
 - (IBAction)userTap:(id)sender;
+- (IBAction)restartRequested:(id)sender;
 - (void)stopSound:(NSNumber*)soundId;
+- (void)initLabelsAndButtons;
 
 #define UPPERBUTTON 0
 #define LOWERBUTTON 1
