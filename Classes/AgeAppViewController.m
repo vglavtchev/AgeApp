@@ -34,7 +34,7 @@ NSString *ageTable[] = {
 	@"11-15", //9
 	@"6-10",
 	@"1-5" ,
-	@"Exceptional!" //12
+	@"Rock!" //12
 };
 	
 
@@ -102,6 +102,10 @@ NSString *ageTable[] = {
     
     
     // Initialize all buttons and labels
+    // Update the main label
+    NSString *mainText = [[NSString alloc] initWithFormat:@"TAP SCREEN TO START TEST!"];
+	mainButton.text = mainText;
+    
     // Init results label to blank
 	NSString *newText = [[NSString alloc] initWithFormat:@""];
 	resultText.text = newText;
@@ -109,6 +113,9 @@ NSString *ageTable[] = {
     // Init restart label to blank
 	NSString *newRestartText = [[NSString alloc] initWithFormat:@""];
 	restartText.text = newRestartText;
+    
+    // Change the helper label
+    helpText.text = [NSString stringWithFormat: @"( Tap each time you hear a sound! )"];
     
     // Initially hide the RESTART button
     restartButton.hidden = TRUE;
@@ -215,17 +222,16 @@ NSString *ageTable[] = {
 	
 		[self performSelector:@selector(playSound) withObject:nil afterDelay:timeToPlay];
 		[self performSelector:@selector(stopSound:) withObject:nil afterDelay:timeToPlay + stopInterval];
-        
-        // Change the helper label
-        helpText.text = [NSString stringWithFormat: @"( Tap each time you hear a sound! )"];
-        
+            
 		testHasStarted = TRUE;
 	}
 }
 
 - (IBAction)restartRequested:(id)sender
 {	
+    [self initLabelsAndButtons];
     
+    testHasStarted = FALSE;
 }
 
 -(void)playSound{
@@ -278,7 +284,6 @@ NSString *ageTable[] = {
 
 	mainButton.text = newText;
 #else
-	NSString *newText = [[NSString alloc] initWithFormat:@"... is your age group"];
 	int secondToLast = 0;
 	int lastSound = 0;
 	int currentSound = 0;
@@ -299,6 +304,8 @@ NSString *ageTable[] = {
 	}
 	
 	//newText = [newText stringByAppendingFormat:@"%@",ageTable[highestHeardSound]];
+    // Update the main label
+    NSString *newText = [[NSString alloc] initWithFormat:@"... is your age group"];
 	mainButton.text = newText;
 	
     // Update the RESULTS label
