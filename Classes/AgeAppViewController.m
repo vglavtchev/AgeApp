@@ -115,7 +115,7 @@ NSString *ageTable[] = {
 	restartText.text = newRestartText;
     
     // Change the helper label
-    helpText.text = [NSString stringWithFormat: @"( Tap each time you hear a sound! )"];
+    helpText.text = [NSString stringWithFormat: @"Tap each time you hear a sound!"];
     
     // Initially hide the RESTART button
     restartButton.hidden = TRUE;
