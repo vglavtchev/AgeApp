@@ -39,7 +39,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AgeAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeAppAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AgeAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgeAppAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* AgeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Age Genie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Age Genie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* AgeAppViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AgeAppViewController.xib; sourceTree = "<group>"; };
@@ -47,8 +47,8 @@
 		28D7ACF60DDB3853001CB0EB /* AgeAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeAppViewController.h; sourceTree = "<group>"; };
 		28D7ACF70DDB3853001CB0EB /* AgeAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgeAppViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32CA4F630368D1EE00C91783 /* AgeApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgeApp_Prefix.pch; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* AgeApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AgeApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Age Genie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Age Genie_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Age Genie-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Age Genie-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D9367CAD151BE213009DFE15 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "Resources/images/Icon-72.png"; sourceTree = "<group>"; };
 		D9367CAE151BE213009DFE15 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Resources/images/Icon.png; sourceTree = "<group>"; };
 		D9367CAF151BE213009DFE15 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Resources/images/Icon@2x.png"; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* AgeApp.app */,
+				1D6058910D05DD3D006BFB54 /* Age Genie.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,7 +122,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				32CA4F630368D1EE00C91783 /* AgeApp_Prefix.pch */,
+				32CA4F630368D1EE00C91783 /* Age Genie_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -149,7 +149,7 @@
 				D9979964151A7143005F8085 /* 22000_half.wav */,
 				2899E5210DE3E06400AC0155 /* AgeAppViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* AgeApp-Info.plist */,
+				8D1107310486CEB800E47090 /* Age Genie-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -167,9 +167,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* AgeApp */ = {
+		1D6058900D05DD3D006BFB54 /* Age Genie */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AgeApp" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Age Genie" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -179,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = AgeApp;
+			name = "Age Genie";
 			productName = AgeApp;
-			productReference = 1D6058910D05DD3D006BFB54 /* AgeApp.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* Age Genie.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +189,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AgeApp" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Age Genie" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -203,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* AgeApp */,
+				1D6058900D05DD3D006BFB54 /* Age Genie */,
 			);
 		};
 /* End PBXProject section */
@@ -260,10 +260,11 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AgeApp_Prefix.pch;
-				INFOPLIST_FILE = "AgeApp-Info.plist";
-				PRODUCT_NAME = AgeApp;
+				GCC_PREFIX_HEADER = "Age Genie_Prefix.pch";
+				INFOPLIST_FILE = "Age Genie-Info.plist";
+				PRODUCT_NAME = "Age Genie";
 				PROVISIONING_PROFILE = "978F10E7-1C9F-4313-9282-94AF45CE96B8";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,10 +275,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Vladimir Glavtchev (983H2398ZG)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = AgeApp_Prefix.pch;
-				INFOPLIST_FILE = "AgeApp-Info.plist";
-				PRODUCT_NAME = AgeApp;
+				GCC_PREFIX_HEADER = "Age Genie_Prefix.pch";
+				INFOPLIST_FILE = "Age Genie-Info.plist";
+				PRODUCT_NAME = "Age Genie";
 				PROVISIONING_PROFILE = "978F10E7-1C9F-4313-9282-94AF45CE96B8";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -313,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "AgeApp" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Age Genie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -322,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AgeApp" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Age Genie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

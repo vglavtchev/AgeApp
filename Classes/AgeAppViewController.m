@@ -22,6 +22,8 @@
 
 #define NUM_SOUNDS 12
 
+int soundToPlayIndex = 0;
+
 NSString *ageTable[] = {
 	@"61-80", //1
 	@"51-60", //2
@@ -73,6 +75,18 @@ NSString *ageTable[] = {
 	[urlMap setObject:[NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/22000_half.wav", [[NSBundle mainBundle] resourcePath]]] forKey:@"22k"];
 	
     [self initLabelsAndButtons];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(appBecameMaximized:)
+     name:@"appBecameMaximized"
+     object:nil];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(appBecameMinimized:)
+     name:@"appBecameMinimized"
+     object:nil];
     
 	return self;
 }
@@ -234,6 +248,17 @@ NSString *ageTable[] = {
     testHasStarted = FALSE;
 }
 
+-(void)appBecameMinimized: (NSNotification *) notification
+{
+    [NSObject cancelPreviousPerformRequestsWithTarget:self];
+}
+
+-(void)appBecameMaximized: (NSNotification *) notification
+{
+    // Reset the app
+    [self restartRequested:nil];
+}
+
 -(void)playSound{
 	[audioPlayer play];
 	
@@ -265,6 +290,7 @@ NSString *ageTable[] = {
 		
 		// Remember that this sound has been queued up
 		queuedSound = [soundId intValue];
+        NSLog(@"stopSound executed with: %d", queuedSound);
 	}
 }
 

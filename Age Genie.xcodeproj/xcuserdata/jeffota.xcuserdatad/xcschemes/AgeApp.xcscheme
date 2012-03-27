@@ -15,8 +15,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "AgeApp.app"
-               BlueprintName = "AgeApp"
-               ReferencedContainer = "container:AgeApp.xcodeproj">
+               BlueprintName = "Age Genie"
+               ReferencedContainer = "container:Age Genie.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,8 +33,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "AgeApp.app"
-            BlueprintName = "AgeApp"
-            ReferencedContainer = "container:AgeApp.xcodeproj">
+            BlueprintName = "Age Genie"
+            ReferencedContainer = "container:Age Genie.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -52,8 +52,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "AgeApp.app"
-            BlueprintName = "AgeApp"
-            ReferencedContainer = "container:AgeApp.xcodeproj">
+            BlueprintName = "Age Genie"
+            ReferencedContainer = "container:Age Genie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,8 +70,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "AgeApp.app"
-            BlueprintName = "AgeApp"
-            ReferencedContainer = "container:AgeApp.xcodeproj">
+            BlueprintName = "Age Genie"
+            ReferencedContainer = "container:Age Genie.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
