@@ -3,7 +3,7 @@
 //  Sound Recognizer
 //
 //  Created by Vladimir Glavtchev on 3/7/11.
-//  Copyright 2011 BMW Technology Office USA. All rights reserved.
+//  Copyright Vladimir Glavtchev. All rights reserved.
 //
 
 #import "AgeAppViewController.h"
@@ -14,6 +14,7 @@
 @synthesize testHasStarted;
 @synthesize mainButton;
 @synthesize restartButton;
+@synthesize critterTestButton;
 @synthesize resultText;
 @synthesize restartText;
 @synthesize helpText;
@@ -131,9 +132,18 @@ NSString *ageTable[] = {
     // Change the helper label
     helpText.text = [NSString stringWithFormat: @"Tap each time you hear a sound!"];
     
+    // Update the RESULTS label
+	NSString *newResultText = [NSString stringWithFormat: @""];
+	resultText.text = newResultText;
+    
     // Initially hide the RESTART button
     restartButton.hidden = TRUE;
     restartButton.enabled = FALSE;
+}
+
+-(IBAction) crashPressed:(id) sender {
+    [NSException raise:NSInvalidArgumentException
+                format:@"Foo must not be nil"];
 }
 
 - (IBAction)userTap:(id)sender
@@ -373,7 +383,7 @@ NSString *ageTable[] = {
 - (void)viewDidLoad {
     [super viewDidLoad];
 	
-	
+    //[self init];
 }
 
 

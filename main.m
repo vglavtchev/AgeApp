@@ -3,7 +3,7 @@
 //  AgeApp
 //
 //  Created by Vladimir Glavtchev on 3/18/11.
-//  Copyright 2011 BMW Technology Office USA. All rights reserved.
+//  Copyright Vladimir Glavtchev. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

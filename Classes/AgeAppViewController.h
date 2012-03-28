@@ -3,7 +3,7 @@
 //  Sound Recognizer
 //
 //  Created by Vladimir Glavtchev on 3/7/11 .
-//  Copyright 2011 BMW Technology Office USA. All rights reserved.
+//  Copyright Vladimir Glavtchev. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -35,11 +35,15 @@
 @property bool testHasStarted;
 @property (nonatomic, retain) NSMutableDictionary* urlMap;
 @property int userHeardSoundsCount;
+// Crittercism test button
+@property (nonatomic, retain) IBOutlet UIButton *critterTestButton;
 
 - (IBAction)userTap:(id)sender;
 - (IBAction)restartRequested:(id)sender;
 - (void)stopSound:(NSNumber*)soundId;
 - (void)initLabelsAndButtons;
+// Crittercism induce crash test function
+- (IBAction) crashPressed:(id) sender;
 
 #define UPPERBUTTON 0
 #define LOWERBUTTON 1

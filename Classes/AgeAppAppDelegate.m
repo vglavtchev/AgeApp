@@ -3,17 +3,16 @@
 //  AgeApp
 //
 //  Created by Vladimir Glavtchev on 3/18/11.
-//  Copyright 2011 BMW Technology Office USA. All rights reserved.
+//  Copyright Vladimir Glavtchev. All rights reserved.
 //
 
 #import "AgeAppAppDelegate.h"
-#import "AgeAppViewController.h"
 
 @implementation AgeAppAppDelegate
 
 @synthesize window;
 @synthesize viewController;
-
+@synthesize introController;
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -23,14 +22,43 @@
     // Override point for customization after application launch.
 
 	// Set the view controller as the window's root view controller and display.
-    self.window.rootViewController = self.viewController;
+    IntroScreenViewController *introScrController = [[IntroScreenViewController alloc] initWithNibName:@"IntroScreenViewController" bundle:nil];
+    
+    AgeAppViewController *mainViewController = [[AgeAppViewController alloc] initWithNibName:@"AgeAppViewController" bundle:nil];
+    
+    self.introController = introScrController;
+    self.viewController = mainViewController;
+    
+    //[self.window.rootViewController.view insertSubview: introScrController.view atIndex: 0];
+    self.window.rootViewController = introScrController;
     [self.window makeKeyAndVisible];
-	
-	[viewController init];
-
+	    
+    [introController init];
+    
+    // Integrate Crittercism for analytics and crashes
+    [Crittercism initWithAppID: @"4f7214e9b093157449000022"
+                        andKey:@"0disgwxxg4cvvsjqq5r1zujerbtd"
+                     andSecret:@"nv20tdjkrkrdbah4sf9mncglijhz3xxc"];
+    
+    [[NSNotificationCenter defaultCenter]
+     addObserver:self
+     selector:@selector(showMainView)
+     name:@"hideIntroView"
+     object:nil];
+        
+    [introScrController release];
+    [mainViewController release];
+    
     return YES;
 }
 
+- (void)showMainView
+{
+    [introController.view removeFromSuperview];
+    //[self.window.rootViewController.view removeFromSuperview];
+    [self.window addSubview: self.viewController.view];
+    [viewController init];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     
