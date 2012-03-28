@@ -20,6 +20,7 @@
 @synthesize helpText;
 @synthesize urlMap;
 @synthesize userHeardSoundsCount;
+@synthesize companyLogo;
 
 #define NUM_SOUNDS 12
 
@@ -139,6 +140,9 @@ NSString *ageTable[] = {
     // Initially hide the RESTART button
     restartButton.hidden = TRUE;
     restartButton.enabled = FALSE;
+    
+    // Hide the company logo initially
+    companyLogo.hidden = TRUE;
 }
 
 -(IBAction) crashPressed:(id) sender {
@@ -355,6 +359,9 @@ NSString *ageTable[] = {
     // Show restart label / button
 	NSString *newRestartText = [[NSString alloc] initWithFormat:@"RESTART TEST?"];
 	restartText.text = newRestartText;
+    
+    // Show the company logo 
+    companyLogo.hidden = FALSE;
     
     // Show the RESTART button
     restartButton.hidden = FALSE;

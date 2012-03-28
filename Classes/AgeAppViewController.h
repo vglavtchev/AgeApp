@@ -17,6 +17,7 @@
     IBOutlet UILabel *resultText;
     IBOutlet UILabel *restartText;
 	IBOutlet UILabel *helpText;
+    IBOutlet UIImageView *companyLogo;
 	NSMutableDictionary *urlMap;
 	NSString* soundBank[13];
 	
@@ -31,6 +32,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *resultText;
 @property (nonatomic, retain) IBOutlet UILabel *restartText;
 @property (nonatomic, retain) IBOutlet UILabel *helpText;
+@property (nonatomic, retain) IBOutlet UIImageView *companyLogo;
 @property bool isAudioPlaying;
 @property bool testHasStarted;
 @property (nonatomic, retain) NSMutableDictionary* urlMap;
