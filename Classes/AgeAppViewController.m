@@ -95,6 +95,12 @@ NSString *ageTable[] = {
 
 - (void)initLabelsAndButtons
 {
+    // Keep track of users hitting the app entry
+    NSError *error;
+    if (![[GANTracker sharedTracker] trackPageview:@"/app_start_page"
+                                         withError:&error]) {    }
+    
+    
     // Initialize all audio related variables
     [self setIsAudioPlaying:FALSE];
 	[self setTestHasStarted:FALSE];
@@ -143,6 +149,11 @@ NSString *ageTable[] = {
     
     // Hide the company logo initially
     companyLogo.hidden = TRUE;
+    
+    // Hide the Crittercism crash test button 
+    critterTestButton.hidden = TRUE;
+    //critterTestButton.hidden = FALSE;
+
 }
 
 -(IBAction) crashPressed:(id) sender {
@@ -310,6 +321,12 @@ NSString *ageTable[] = {
 
 -(void)calculateAge
 {
+    
+    // GoogleAnalytics: Keep track of users getting to the results page
+    NSError *error;
+    if (![[GANTracker sharedTracker] trackPageview:@"/app_results_page"
+                                         withError:&error]) {    }
+    
 	// Create new text for the label
 #ifdef DEBUG
 	NSString *newText = [[NSString alloc] initWithFormat:@"User heard sounds: [ "];
@@ -389,7 +406,6 @@ NSString *ageTable[] = {
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
     //[self init];
 }
 

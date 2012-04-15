@@ -10,6 +10,7 @@
 #import "IntroScreenViewController.h"
 #import "AgeAppViewController.h"
 #import "Crittercism.h"
+#import "GANTracker.h"
 
 @class AgeAppViewController;
 @class IntroScreenViewController;

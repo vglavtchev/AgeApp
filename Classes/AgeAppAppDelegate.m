@@ -8,6 +8,11 @@
 
 #import "AgeAppAppDelegate.h"
 
+//#define GOOGLE_ANALYTICS
+
+// Dispatch period in seconds
+static const NSInteger kGANDispatchPeriodSec = 10;
+
 @implementation AgeAppAppDelegate
 
 @synthesize window;
@@ -39,6 +44,19 @@
     [Crittercism initWithAppID: @"4f7214e9b093157449000022"
                         andKey:@"0disgwxxg4cvvsjqq5r1zujerbtd"
                      andSecret:@"nv20tdjkrkrdbah4sf9mncglijhz3xxc"];
+    
+    // Integrate Google Analytics for stat tracking
+#ifdef GOOGLE_ANALYTICS
+    [[GANTracker sharedTracker] startTrackerWithAccountID:@"UA-30593893-1"
+                                           dispatchPeriod:kGANDispatchPeriodSec
+                                                 delegate:nil];
+#endif
+    
+    // Keep track of users hitting the app entry
+    NSError *error;
+    if (![[GANTracker sharedTracker] trackPageview:@"/app_entry_point"
+                                         withError:&error]) {    }
+    
     
     [[NSNotificationCenter defaultCenter]
      addObserver:self

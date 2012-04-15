@@ -17,8 +17,9 @@
 	 addObserver:self
 	 selector:@selector(startTest:)
 	 name:@"startSoundTest"
-	 object:nil ];
-	 return;*/
+	 object:nil ];*/
+    
+	 return self;
 }
 
 //event handler when event occurs

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <AVFoundation/AVFoundation.h>
+#import "GANTracker.h"
 
 @interface AgeAppViewController : UIViewController {
 	AVAudioPlayer *audioPlayer;
